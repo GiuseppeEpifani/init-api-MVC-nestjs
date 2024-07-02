@@ -11,7 +11,7 @@ import { I18nConfig } from './config/i18n.config';
     UserModule,
     ConfigModule.forRoot({
       load: [configuration],
-      isGlobal: true,
+      isGlobal: true
     }),
     I18nModule.forRoot(I18nConfig),
     DatabaseModule

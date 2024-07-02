@@ -17,10 +17,7 @@ export class UserService {
   }
 
   async create(userDto: CreateUserDto): Promise<User> {
-
     console.log(userDto);
-
-
     return {} as User;
     /* return this.userRepository.create({
       ...userDto,
