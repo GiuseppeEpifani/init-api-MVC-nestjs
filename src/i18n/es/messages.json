@@ -1,0 +1,9 @@
+{
+  "success": {
+    "obtained": "Obtenido con éxito",
+    "created": "Creado con éxito",
+    "updated": "Actualizado con éxito"
+  },
+  "error": {
+  }
+}
